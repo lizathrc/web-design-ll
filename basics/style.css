@@ -1,0 +1,73 @@
+button{
+  width: 100px;
+  height: 50px;
+}
+
+.hover:hover{
+  background-color: rgb(132, 0, 255);
+  color: white;
+}
+
+.active:active{
+  background-color: rgb(194, 145, 240);
+  color: white;
+}
+
+div{
+  position: relative;
+}
+
+
+.box1{
+  width: 18rem;
+  height: 15rem;
+  background-color: rgb(253, 146, 146);
+  top: 50px;
+  left: 600px;
+  z-index: 1;
+}
+
+.box2{
+  width: 18rem;
+  height: 15rem;
+  background-color: rgb(247, 245, 140);
+  top: -100px;
+  left: 100px;
+  z-index: 2;
+}
+
+.box3{
+  width: 18rem;
+  height: 15rem;
+  background-color: rgb(151, 252, 173);
+  top: -108px;
+  left: 150px;
+  z-index:3;
+}
+
+.box4{
+  width: 18rem;
+  height: 15rem;
+  background-color: rgb(255, 153, 0);
+  top: 710px;
+  left: 100px;
+  position: fixed;
+}
+
+.box5{
+  width: 18rem;
+  height: 15rem;
+  background-color: rgb(0, 162, 255);
+  top: 100px;
+  left: 150px;
+  position: relative;
+}
+
+.box6{
+  width: 18rem;
+  height: 15rem;
+  background-color: rgb(0, 255, 55);
+  top: 1065px;
+  left: 233px;
+  position: absolute;
+}
