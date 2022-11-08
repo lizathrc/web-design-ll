@@ -18,31 +18,31 @@ header{
 
 nav{
   background-color: #FFC297;
-  padding: 30px;
-  margin-right: 30px;
+  padding: 10%;
+  margin-right: 10%;
 }
 
 img{
-  height: 40px;
-  margin-bottom: 20px;
+  height: 5%;
+  margin-bottom: 5%;
 }
 
 nav li{
-  margin-top: 20px;
+  margin-top: 20%;
 }
 
 .nav-settings {
-  margin-top: 82px;
+  margin-top: 100%;
 }
 
 main{
   display: flex;
-  
+  margin-left: 20%;
 }
 
 .menu{
-  margin-right: 30px;
-  margin-top: 50px;
+  margin-right: 30%;
+  margin-top: 20%;
 }
 
 .menu a{
@@ -52,11 +52,11 @@ main{
 
 .menu p{
   margin: 0;
-  margin-left: 20px;
+  margin-left: 10%;
 }
 
 .menu h2{
-  margin: 0px;
+  margin: 0;
   color: #000;
 }
 
@@ -65,7 +65,7 @@ main{
 }
 
 .menu-li li{
-  margin-top: 27px;
+  margin-top: 20%;
 }
 
 .profile{
@@ -74,14 +74,10 @@ main{
 }
 
 .profile h1{
-  margin: 0px;
-  margin-right: 46%;
-  /* 40px */
-  font-size: 2.5rem;
-}
-
-.profile img{
-  height: 120px;
+  margin: 0;
+  margin-right: 25%;
+  /*56px*/
+  font-size: 3.5rem;
 }
 
 .input-container{
@@ -91,18 +87,19 @@ main{
 
 input{
   margin-right: 20px;
-  padding: 10px;
+  padding: 1%;
   border-radius: 5px;
   border: solid 2px;
   color: #858585;
 }
 
 .input-box{
-  margin-top:10px ;
+  margin-top:2%;
 }
 
 .input-boxito input{
-  width: 658px;}
+  width: 95%;
+}
 
 .noti{
   display: flex;
@@ -113,8 +110,8 @@ button{
   border-color: #FF852C;
   background-color: white;
   color: #FF852C;
-  padding: 5px 30px;
-  margin-right: 20px;
+  padding: 1%;
+  margin-right: 1%;
   border: solid 2px;
 }
 
@@ -123,13 +120,9 @@ button:hover{
   background-color: #FF852C;
 }
 
-.line{
-  width: 2px;
+span{
+  width: 2%;
   height: 100%;
   background-color: #858585;
-}
-
-@media screen and (max-width : 480px) {
-  
 }
 
