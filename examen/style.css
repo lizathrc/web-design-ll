@@ -1,0 +1,228 @@
+header,nav,main,aside,footer{
+  width: 100%;
+}
+
+header,footer{
+  height: 100px;
+}
+nav, aside{
+  height: 200px;
+}
+main{
+  width: 200%;
+}
+header{
+  background-color: coral;
+}
+nav{
+  background-color: chartreuse;
+}
+main{
+  background-color: yellow;
+  margin: 0 1%;
+}
+aside{
+  background-color: blue;
+}
+footer{
+  background-color: pink;
+}
+div{
+  display: flex;
+  margin: 1%;
+}
+/* layout fijo */
+/* 
+*{
+  margin: 20px;
+}
+header,footer{
+  width: 800px;
+  height: 100px;
+}
+nav, aside{
+  width: 200px;
+  height: 200px;
+}
+main{
+  width: 300px;
+}
+header{
+  background-color: coral;
+}
+nav{
+  background-color: chartreuse;
+}
+main{
+  background-color: yellow;
+}
+aside{
+  background-color: blue;
+}
+footer{
+  background-color: pink;
+}
+div{
+  display: flex;
+  margin: 20px 0;
+} */
+
+ /* layout liquido */
+/*  header,nav,main,aside,footer{
+  width: 100%;
+}
+
+header,footer{
+  height: 100px;
+}
+nav, aside{
+  height: 200px;
+}
+main{
+  width: 200%;
+}
+header{
+  background-color: coral;
+}
+nav{
+  background-color: chartreuse;
+}
+main{
+  background-color: yellow;
+  margin: 0 1%;
+}
+aside{
+  background-color: blue;
+}
+footer{
+  background-color: pink;
+}
+div{
+  display: flex;
+  margin: 1%;
+} */
+
+/* Layout elasticos(Media Queries) */
+/* @media screen and (max-width:320px)  {
+
+  div{
+    display: block;
+  }
+  main{
+    width: 100%;
+    height: 200px;
+    margin: auto;
+  }
+  nav,aside{
+    height: 100px;
+  }
+} */
+
+
+/* Examen de ampliación  / Teorico y Practico
+Curso Diseño sitios web 2
+
+Completar las siguientes preguntas, algunos ejercicios requieren adjuntar solución practica. 
+
+
+
+1.¿Cuáles son 5 buenas practicas a la hora de crear nuestra estructura HTML?  / Teorico
+
+•	Identación consistente
+•	Cerrar etiquetas
+•	Usar minúsculas 
+•	Validar código 
+•	Declarar el doctype
+
+2.	¿Cuáles son 5 buenas practicas a la hora de crear nuestra estructura CSS? / Teorico
+
+•	Comentar el css
+•	Escribirles nombre a las clases bien descriptivos
+•	No abusar de los id
+•	Reutilizar código y no caer en la repetición
+•	Agrupar selectores
+
+
+3.	¿Que es Sass y cuales son principales ventajas? Adjuntar un ejemplo. Teorico / Practico
+
+•	Sass es un preprocesador css, eso significa que le agrega características de un 
+lenguaje de programación, como variables.
+•	Las ventajas que tiene son el orden, la rapidez, reutilizar variables, anidar selectores, incluso funciones.
+
+$brand-color-yellow:#FECE2F;
+
+@mixin section-rectangle {
+	  display: flex;
+	  background-color: white;
+	  border: solid 3px;
+	  border-color: $brand-color-yellow;
+	  border-radius: 7px;
+	  height: 269px;
+	  margin-bottom: 1%;
+	  width: 859px;
+	  padding: 1%;
+	}
+
+
+4.	¿Que son tipografias escalables? (Cuales son las unidad de medidas, formula 
+para pasar de px a medida escalable).   Adjuntar un ejemplo. Teorico / Practico
+
+•	Una buena practica es definir medidas escalables al css, 
+eso significa que las medidas que son predefinidas en px y que
+ son de carácter rigido, rompan con esa rigidez, volviéndolo más responsive.
+
+•	px to rem – 16px = 1rem
+entonces debemos tomar en cuenta que 16px es la base, así que 
+si nos basamos en 16px, los 16px deben multiplicarse por el tamaño que quieres
+
+
+    #logo{
+	      @include nunito-cream;
+	      font-weight: 900;
+	      font-size: 2.25rem;
+	      letter-spacing: 2.56px;
+	      margin-left: 5%;
+	    }
+
+ 
+5.	¿Que es flexbox y cuales son sus principales ventajas?  Teorico 
+
+•	Nos permite alinear,llenar  o distribuir el espacio entre los elementos.
+•	Flexbox contiene varias propiedades que nos permiten realizar distintos cambios, 
+como display-flex que convierte el contenedor en flexible, justify-content que controla
+ la alineación de los elementos, entre otros.
+
+7.	¿Cuales son las diferencia entre estos 3 tipos de  Layout fijos,  Layout líquidos y Layout 
+elasticos(Media Queries)? Adjuntar un ejemplo de cada layout a la siguiente img.  Teorico / Practico
+
+ •	fijo
+no se puede estirar ni cambiar
+•	liquido
+es cuando se puede adaptar al contenedor
+•	elástico 
+para adaptarlo a dispositivos
+
+
+9.	¿Que es SEO y cual es su principal beneficio ?  Teorico
+
+•es el uso de técnicas y herramientas que cumple con la función de potencializar el crecimiento 
+ de las paginas en el top de las búsquedas. Te permite maximizar el crecimiento de la marca.
+
+10.	¿Cuales son 5 puntos que debemos considerar para que nuestra pagina web sea accesible
+  para personas con alguna discapacidad ?  Teorico
+•	Videos y otros objetos multimedia
+•	Colores
+•	Descripción de los elementos con alt
+•	Iconos descriptivos
+•	Hacer un estudio del publico meta
+
+
+
+11.	¿Que es BEM? Adjuntar un ejemplo  Teorico / Practico
+
+•	Es una manera de estructuras nombre de las clases basado el las propiedades
+
+class= “container__block”
+/bloque__elemento/
+
+*/
